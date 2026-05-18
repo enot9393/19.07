@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Антон и Варвара | Регистрация брака и Венчание</title>
-    <style>
+    <title>Антон и Варвара |Венчание и Регистрация брака </title>
+    <style>Венчание
         @import url('https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,300;0,400;0,700;1,400&family=Cinzel:wght@400;600&display=swap');
         
         * {
@@ -561,7 +561,7 @@
 
         <!-- ОБРАТНЫЙ ОТСЧЕТ -->
         <div class="countdown" id="countdown">
-            <h3>До регистрации брака</h3>
+            <h3>До венчания осталось</h3>
             <div class="countdown-grid">
                 <div class="countdown-item">
                     <span class="countdown-number" id="days">--</span>
@@ -584,37 +584,39 @@
 
         <!-- СОБЫТИЯ -->
         <div class="events-section">
-            <div class="event-item">
-                <div class="event-icon">💍</div>
-                <div class="event-info">
-                    <h3>Регистрация брака</h3>
-                    <div class="event-time">08 августа 2026 • 11:00</div>
-                    <div class="event-location">ЗАГС, ул. Юргановская, 66, г. Чердынь</div>
-                </div>
-            </div>
-            <div class="event-item">
+            <div class="event-item">  
+                <div class="event-item">
                 <div class="event-icon">⛪</div>
                 <div class="event-info">
                     <h3>Венчание</h3>
-                    <div class="event-time">09 августа 2026 • 12:00</div>
+                    <div class="event-time">19 июля 2026 </div>
                     <div class="event-location">храм РДЦ Николы Чудотворца, д. Ванькова</div>
                 </div>
             </div>
-            <div class="event-item">
+             <div class="event-item">
                 <div class="event-icon">🍽️</div>
                 <div class="event-info">
                     <h3>Пир</h3>
-                    <div class="event-time">09 августа 2026 • 18:00</div>
-                    <div class="event-location">Керос, д. Ванькова</div>
+                    <div class="event-time">19 июля 2026 • 17:00</div>
+                    <div class="event-location">, д. Ванькова</div>
                 </div>
             </div>
+                <div class="event-icon">💍</div>
+                <div class="event-info">
+                    <h3>Регистрация брака</h3>
+                    <div class="event-time">08 августа 2026 • 12:30</div>
+                    <div class="event-location">ЗАГС, ул. 20-летия Победы, 121, г. Соликамск</div>
+               
+                </div>
+            </div>
+         
         </div>
 
         <!-- НОВЫЙ БЛОК ПОДСКАЗКИ -->
         <div class="hint-section">
             <div class="hint-icon">🎁 Подсказка</div>
             <div class="hint-text">
-                Будем благодарны, если вы воздержитесь от пышных букетов и замените их бутылочкой горячительного напитка для пополнения домашнего мини-бара
+                Просим приходить на регистрацию брака без опозданий, чтобы было меньше переживаний в этот важный день
             </div>
         </div>
 
@@ -625,7 +627,7 @@
         <!-- НОВЫЙ БЛОК ФОРМЫ -->
         <div class="form-section">
             <div class="form-text">
-                Чтобы все прошло идеально, пожалуйста, заполните короткую форму до 1 июня
+                Чтобы все прошло идеально, пожалуйста, заполните короткую форму
             </div>
             <a href="https://forms.gle/rMv2GZYj23JVS7o56" target="_blank"  rel="noopener noreferrer" class="form-link">
                 Заполнить форму
@@ -656,7 +658,7 @@
 
         // Обновленный обратный отсчет
         function updateCountdown() {
-            const weddingDate = new Date('2026-08-08T11:00:00');
+            const weddingDate = new Date('2026-07-19T12:00:00');
             const now = new Date();
             const difference = weddingDate - now;
 
